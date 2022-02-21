@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
 
+void print(string s) {
+	cout << s << endl;
+}
+
 int main() {
-	cout << "Hum yai mak mak\n";
-	cout << "eiei"<< endl;
-	cout << "eiei2" << endl;
+	print("Hum yai mak mak");
+	print("eiei");
+	print("eiei2");
 	return 0;
 }
